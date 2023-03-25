@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title IX 50 - Women's Sports Foundation</title>
+    <link rel="stylesheet" href="titleix50.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon"
+        href="data:image/png;base64,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">
+</head>
+
+<body>
+
+
+    <div class="container">
+
+
+        <div class="navBar">
+            <ul>
+                <li><img src="https://i0.wp.com/lfgthemovie.com/wp-content/uploads/2021/11/WSF-Logo_wide-300px.jpg?resize=1080%2C328&ssl=1"
+                        class="img1" alt=""></li>
+                <li><a style="margin-left: 500px; border-bottom: 3px solid black;" href="">TITLE IX 50</a></li>
+                <li><a href="" class="under">WHO WE ARE</a></li>
+                <li><a href="" class="under">WHAT WE DO</a></li>
+                <li><a href="" class="under">GET INVOLVED</a></li>
+                <li><a href="" class="under">SUPPORT US</a></li>
+                <li><i class="fa-solid fa-magnifying-glass"></i></li>
+            </ul>
+        </div>
+
+
+
+        <div class="sectionOne">
+            <div class="partLeft">
+                <img src="https://www.womenssportsfoundation.org/wp-content/uploads/2022/04/titleix-photo-hero-croppedbars.png"
+                    style="height: 100%; width: 100%;" alt="">
+            </div>
+            <div class="partRight">
+                <h2 style="font-size: 15px; letter-spacing: 3px; ">WSF SALUTES</h2>
+                <img style="height: 59xp; width: 375px; margin-top:35px;"
+                    src="https://www.womenssportsfoundation.org/wp-content/themes/wsf2/images/titleix/text-50years.png"
+                    alt="">
+                <h1 style="font-size: 80px;">of Title IX</h1>
+                <h3 style="margin-top: 50px; font-size: 23px;">A lot can change in 50 years. A lot has.</h3>
+                <img style="height: 101xp; width: 300px; margin-top: 35px;"
+                    src="https://www.womenssportsfoundation.org/wp-content/themes/wsf2/images/titleix/logo-titleix.png"
+                    alt="">
+            </div>
+        </div>
+
+
+        <div class="sectionTwo">
+            <div class="content">
+                <div class="contLeft">
+                    <h4 style="font-weight: 520; letter-spacing: 3px;">ROAD TO 50</h4>
+                    <h3 style="margin-top: 40px; font-size: 46px; font-weight: 400;">Title IX turned 50 on June 23, 2022
+                    </h3>
+                    <p style="margin-top: 50px; font-size: 22px; line-height: 35px; font-weight: 450;">Since day one,
+                        the Women’s Sports Foundation has been working toward gender equality in sport
+                        through research, advocacy, education, grant-making, and leadership development. As of the 50th
+                        anniversary, WSF has invested over $100 million, expanding access and opportunities for all
+                        girls and women to reach their potential in sport and in life. But key questions remain. How do
+                        we educate and empower the next generation of advocates? How do we fulfill the true promise of
+                        Title IX? What do the next 50 years look like? Join us as we look back, honor today, and move
+                        forward.</p>
+                    <button class="b01">TITLE IX FAST FACTS</button>
+                </div>
+                <div class="imgRight">
+                    <img src="https://www.womenssportsfoundation.org/wp-content/uploads/2022/04/titleix-photo-introathlete.jpg"
+                        alt="" style="margin-top: 100px; height: 80%; width: 100%;">
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="sectionThree">
+            <div class="imgLeft">
+                <img src="https://www.womenssportsfoundation.org/wp-content/uploads/2022/04/titleix-photo-quote.jpg"
+                    alt="" style="height: 100%;
+                width: 100%;">
+            </div>
+
+            <div class="contRight">
+                <img src="https://www.womenssportsfoundation.org/wp-content/themes/wsf2/images/titleix/titleix-photo-quotebg.jpg" alt="" style="height: 
+                81%; width: 50%; position: absolute; z-index: -1; right: 0px; top: 1711px;">
+                <h2 style="font-size: 16px; font-weight: 500; letter-spacing: 5px;">TITLE IX</h2>
+                <h3 style="font-size: 46px; font-weight: 500; margin-top: 55px; line-height: 45px; ">
+                    37 words and 50 years <br> that changed <br> everything.
+                </h3>
+                <h4 style="font-size: 20px; line-height: 30px; font-weight: 700; margin-top: 50px;">
+                    “No person in the United States shall, on the basis of sex, be excluded from participation in, be
+                    denied
+                    the benefits of, or be subjected to discrimination under any education program or activity receiving
+                    federal financial assistance.”
+                </h4>
+                <p style="font-size: 16px; font-weight: 400; margin-top: 20px;">Title IX of the Education Amendments Act
+                    of 1972</p>
+            </div>
+        </div>
+
+
+        <div class="sectionFour">
+           
+            <h2 style="font-size: 16px; font-weight: 530;letter-spacing: 3px;">STAY ENGAGED</h2>
+            <h1 style="font-size: 48px; font-weight: 500; margin-top: 30px;">Signature Activations</h1>
+            <p style="margin-top: 30px; font-weight: 530;font-size: 18px; margin-left: 400px ;margin-right:400px;">WSF
+                is proud and grateful to partner with so many strong, supportive organizations — dedicated to
+                leveling the playing field for all athletes.</p>
+        </div>
+
+
+        <div class="sectionFive">
+            <div class="div1">
+                <img class="pic"
+                    src="https://www.womenssportsfoundation.org/wp-content/uploads/2022/04/titleix-photo-blocks1-636x800.jpg"
+                    alt="">
+            </div>
+            <div class="div1" style="background-color: #E30450; text-align: center; padding: 70px 30px 0px 30px;">
+                <h3 style="font-size:22px;font-weight: 530; ">VIRTUAL TOWN HALL SERIES</h3>
+                <p style="padding: 15px; font-size: 16px; font-weight: 400;">Throughout 2022, WSF hosted a series of
+                    free Virtual Town Halls open to the public, featuring
+                    leaders, advocates and athletes discussing the progress and promise of Title IX. Topics include
+                    youth participation, pay equity, leadership, public policy, LGBTQ+, disability, and media.</p>
+                <button class="b02">Learn More</button>
+            </div>
+            <div class="div3">
+                <img src="https://www.womenssportsfoundation.org/wp-content/uploads/2022/04/titleix-photo-blocks2-800x503.jpg"
+                    alt="" class="pic">
+            </div>
+            <div class="div1">
+                <img src="https://www.womenssportsfoundation.org/wp-content/uploads/2022/04/titleix-photo-blocks3-636x800.jpg"
+                    alt="" class="pic">
+            </div>
+            <div class="div1">
+                <img src="https://www.womenssportsfoundation.org/wp-content/uploads/2022/04/titleix-photo-blocks4-636x800.jpg"
+                    alt="" class="pic">
+            </div>
+            <div class="div1"
+                style="background-color: #F4EA98; text-align: center; padding: 70px 25px 0px 25px;  color: #000;">
+                <h3 style="font-size:22px;font-weight: 530; padding: 0px 20px 0px 20px ;">50 YEARS OF TITLE IX: WE’RE
+                    NOT DONE YET</h3>
+                <p style="padding: 15px; font-size: 16px; font-weight: 400; margin-top: 10px;line-height: 20px;">
+                    WSF released a research report that examines the progress made in the first 50 years and looks to
+                    the
+                    future – what needs to change and what steps need to be taken in order to achieve gender equitable
+                    treatment and inclusive excellence in sports.
+                </p>
+                <button class="b03">Read the Report</button>
+            </div>
+            <div class="div1">
+                <img src="https://www.womenssportsfoundation.org/wp-content/uploads/2022/04/titleix-photo-blocks5-636x800.jpg"
+                    alt="" class="pic">
+            </div>
+        </div>
+
+
+        <div class="sectionFive">
+            <div class="div1">
+                <img class="pic"
+                    src="https://www.womenssportsfoundation.org/wp-content/uploads/2022/04/titleix-photo-blocks6-636x800.jpg"
+                    alt="">
+            </div>
+            <div class="div1" style="background-color: #0484DE; text-align: center; padding: 70px 20px 0px 20px;">
+                <h3 style="font-size:22px;font-weight: 530; ">DEMAND IX</h3>
+                <p style="padding: 15px; font-size: 16px; font-weight: 400;">
+                    WSF, Billie Jean King Leadership Initiative and National Women’s Law Center formed the Title IX
+                    Anniversary Coalition and launched a national campaign to increase the pace of change toward equity
+                    and fairness for all.
+                </p>
+                <button class="b04">Sign the Pledge</button>
+            </div>
+            <div class="div3">
+                <img src="https://www.womenssportsfoundation.org/wp-content/uploads/2022/04/titleix-photo-blocks7-800x503.jpg"
+                    alt="" class="pic">
+            </div>
+            <div class="div1">
+                <img src="https://www.womenssportsfoundation.org/wp-content/uploads/2022/04/titleix-photo-blocks8-636x800.jpg"
+                    alt="" class="pic">
+            </div>
+            <div class="div1">
+                <img src="https://www.womenssportsfoundation.org/wp-content/uploads/2022/04/titleix-photo-blocks9-636x800.jpg"
+                    alt="" class="pic">
+            </div>
+            <div class="div1"
+                style="background-color: #F6B9C6; text-align: center; padding: 70px 25px 0px 25px;  color: #000;">
+                <h3 style="font-size:22px;font-weight: 530; padding: 0px 20px 0px 20px ;">NGWSD VIRTUAL 5K & 50 MILE
+                    CHALLENGE</h3>
+                <h4 style="margin-top: 30px;">presented by</h4>
+                <h3>DICK’S Sporting Goods</h3>
+                <p style="padding: 15px; font-size: 16px; font-weight: 400; margin-top: 10px;line-height: 20px;">
+                    Whether you chose to walk, swim, bike, ski, roll or run all 50 miles at once or spread out your
+                    movement throughout the weeks leading up to the Title IX festivities in June, we thank you for
+                    taking part in this community-based celebration.
+                </p>
+                <button class="b05">Learn More</button>
+            </div>
+            <div class="div1">
+                <img src="https://www.womenssportsfoundation.org/wp-content/uploads/2022/04/titleix-photo-blocks10-636x800.jpg"
+                    alt="" class="pic">
+            </div>
+        </div>
+
+
+        <div class="sectionSix">
+            <div class="first">
+                <h2 style="font-size: 16px; font-weight: 500; letter-spacing: 3px; ">ADVOCACY IS A TEAM SPORT</h2>
+                <h3 style="font-size: 36px; font-weight: 500; letter-spacing: 1px ;margin-top: 35px;">Activities &
+                    Events</h3>
+                <p style="font-size: 16px; font-weight: 400; margin-top: 35px;margin-left: 470px; margin-right: 470px;">
+                    WSF is proud to highlight efforts commemorating the
+                    importance of Title IX and gender equity in sports.</p>
+            </div>
+            <div class="second">
+                <div class="partA">
+                    <h2 style="font-size: 16px; font-weight: 500; letter-spacing: 3px; margin-top: 25px;">CURRENT EVENT
+                    </h2>
+                    <h4 style="font-size: 18px; font-weight: 500; letter-spacing: 1px; margin-top: 35px;">All American:
+                        The Power of Sports Exhibit</h4>
+                    <p style="margin-top: 10px;">September 16, 2022</p>
+                    <p style="font-size: 14px; margin-top: 20px;line-height: 20px;">
+                        National Archives will host the exhibit: All American: The Power of Sports beginning on
+                        September
+                        16. WSF and Billie Jean King are on the honorary committee. This event runs until January 2024.
+                    </p>
+                </div>
+                <div class="partA">
+                    <h2 style="font-size: 16px; font-weight: 500; letter-spacing: 3px; margin-top: 25px;">UPCOMING</h2>
+                    <h4 style="font-size: 18px; font-weight: 500; letter-spacing: 1px; margin-top: 35px;">National Girls
+                        & Women in Sports Day® Briefing</h4>
+                    <p style="margin-top: 10px;">February 1, 2023</p>
+                    <p style="font-size: 14px; margin-top: 20px;line-height: 20px;">
+                        The Women’s Sports Foundation will host a briefing for congressional members and staffers on
+                        Capitol Hill commemorating the 37th Annual National Girls & Women in Sports Day (NGWSD). This
+                        discussion will focus on the wellbeing of athletes and efforts for greater gender equity in
+                        sports. Speakers will include student-athletes, elite athletes, and women’s sports advocates.
+                    </p>
+                </div>
+                <div class="partA">
+                    <h2 style="font-size: 16px; font-weight: 500; letter-spacing: 3px; margin-top: 25px;">PAST EVENT
+                    </h2>
+                    <h4 style="font-size: 18px; font-weight: 500; letter-spacing: 1px; margin-top: 35px;">New-York
+                        Historical Society’s Title IX Exhibit</h4>
+                    <p style="margin-top: 10px;">May 12-September 4, 2022</p>
+                    <p style="font-size: 14px; margin-top: 20px;line-height: 20px;">
+                        Open May 12 through September 4, 2022, the New York Historical Society’s Title IX exhibit will
+                        include select items from the Women’s Sports Foundation and Billie Jean King Archives.
+                    </p>
+                    <span style="position: relative;bottom: -20px; color: #e20451; cursor: pointer;">More Info</span>
+                </div>
+            </div>
+            <button class="b06">View All</button>
+        </div>
+
+
+
+        <section class="footer">
+            <div class="footerleft">
+                <ul>
+                    <li><img src="https://www.womenssportsfoundation.org/wp-content/themes/wsf2/images/wsf_logo_white.svg" alt=""></li>
+                    <li>Keep being inspired. <br>Subscribe to our newsletter.</li>
+                    <li><a style="border: 2px solid white;color: white;font-size: 14px;border-radius: 10px;padding: 5px;padding-right: 15px;padding-left: 15px;" href="">Go!</a></li>
+                </ul>
+            </div> 
+            <div class="footerrightt">
+                <div class="iconul">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-vimeo"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-square-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footerelul">
+                    <ul style="display: flex; justify-content: space-between; position: relative;bottom: 40px;"> 
+                        <ul>
+                            <li><a href="">WHO WE ARE</a></li>
+                            <li><a href="">WSF History</a></li>
+                            <li><a href="">Our Team</a></li>
+                            <li><a href="">Athletes</a></li>
+                            <li><a href="">Our Partners</a></li>
+                            <li><a href="">Financials</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">WHAT WE DO</a></li>
+                            <li><a href="">Advocacy</a></li>
+                            <li><a href="">Programs</a></li>
+                            <li><a href="">Research</a></li>
+                            <li><a href="">Resources</a></li>
+                            <li><a href="">Awards</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">THE EQUITY PROJECT</a></li>
+                            <li><a href="">Get Involved</a></li>
+                            <li><a href="">Annual Salute</a></li>
+                            <li><a href="">Share Your Story</a></li>
+                            
+                        </ul>
+                        <ul>
+                            <li><a href="">SUPPORT US</a></li>
+                            <li><a href="">Donate</a></li>
+                            <li><a href="">Fundraise</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </ul>
+                    <div class="privacy" style="position: relative;top: 30px;">
+                    <div class="extralink"><a href="" style="text-decoration: underline; position: relative; bottom: 40px;">© 2023 Women’s Sports Foundation. All rights reserved.</a> <span style="position: relative; bottom: 40px;"> Founded by Billie Jean King.</span></div>
+                    <ul style="display: flex; position: relative; top: 20px;">
+                        <li style="margin-right: 10px; position: relative; bottom: 30px;">Privacy Policy</li>
+                        <li style="margin-right: 10px; border-right: 2px solid white;position: relative; bottom: 30px;"></li>
+                        <li style="position: relative; bottom: 30px;">Term of Use</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+</body>
+
+</html>

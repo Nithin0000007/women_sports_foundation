@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 368vh;
+    
+    /* background-color: aqua; */
+}
+.navbar{
+    height: 18vh;
+    width: 100%;
+    position: fixed;
+   display: flex;
+   z-index: 111;
+   justify-content: space-around;
+   align-items: center;
+    background-color: white;
+}
+.navbar .logoimg{
+    width: 30%;
+    position: relative;
+    left: 10vw;
+}
+.navbar ul li a{
+    color: rgb(20, 20, 20);
+    margin: 10px;
+}
+.navelements{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+ .upnavel ul, .downnavel ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.downnavel ul li a{
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    top: 20px;
+}
+.upnavel ul li a{
+    font-size: 14px;
+    font-weight: 700;
+}
+.upnavel i{
+    font-size: 17px;
+}
+.backgroundvideo{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    top: 18vh;
+   
+}
+.second{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    top: 18vh;
+    display: flex;
+    background-color: blue;
+}
+.second .leftdiv{
+   
+    background-image: url(https://thumbs.dreamstime.com/b/abstract-vector-seamless-white-background-black-lines-broken-monochrome-polygonal-pattern-wallpaper-112546336.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7%;
+}
+.second .leftdiv p{
+    height: 60vh;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    background-color: white;
+    width: 35vw;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.second .rightdiv p{
+    height: 100%;
+    padding: 10%;
+   
+    font-size: 30px;
+    
+    width: 40vw;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.second .rightdiv{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+.third{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    top: 18vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer{
+    height: 70vh;
+    width: 100vw;
+    position: relative;
+    top: 18vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+.footer a{
+    color: white;
+}
+.iconul ul{
+    display: flex;
+
+}
+.footerelul{
+    display: flex;
+    flex-direction: column;
+}
+.footerleft{
+    width: 30%;
+   
+
+}
+.footerleft ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.footerleft ul li{
+    margin: 10px;
+}
+.footerrightt{
+    display: flex;
+    height: 100%;
+    width: 60%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.iconul ul li{
+  margin: 10px;
+}
+.footerelul ul ul li{
+   margin: 10px;
+}
